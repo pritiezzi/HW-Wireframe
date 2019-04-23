@@ -1,0 +1,59 @@
+body {
+    background-color: aqua;
+    width: 960px;
+    font-family: Arial;
+     color:black;
+     width: 960px;
+     font-size: 18px;
+}
+
+header,
+nav,
+section,
+aside,
+footer{
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: blueviolet;
+}
+
+
+section {
+    display:block;
+    float: left;
+    height: 300px;
+    overflow: hidden;
+    width: 400px;
+}
+
+aside{
+    display:block;
+    float:right;
+    width: 40%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.clear{
+    clear:both
+
+}
+
+article{
+    padding: 10px;
+    background-color: blue;
+
+
+}
+
+h1,p {
+    width: 90%;
+    padding: 10px;
+    margin:10px;
+    color: brown;
+    text-align: center;
+
+}
+
